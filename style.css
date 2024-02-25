@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: auto;
+    background-color: #003;
+    align-content: center;
+    
+}
+.header{
+    width: auto;
+    height: 150px;
+    border-bottom: 1px orange solid;
+    display: inline;
+    
+}
+.header h{
+    height: 50px;
+    width: 200px;
+    color: orange;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 10px;
+    font-family: Arial;
+    justify-content: center;
+    float: left;
+}
+.menu {
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 0;
+  display: inline;
+}
+
+.menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  transition: .3s;
+}
+.menu li a:hover{
+    color: orange;
+    letter-spacing: 1.5px;
+    border: 1px orange solid;
+    border-radius: 10px;
+}
+
+.menu li:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+    width: 170px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  background-color: #004DFF;
+  padding: 10px;
+  z-index: 1;
+  transition: .3s;
+}
+
+.dropdown-menu li {
+  display: block;
+  transition: .2s;
+}
+.dropdown-menu li:hover{
+    color: white;
+}
+
+.dropdown-menu li a {
+  padding: 5px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #6FAAFF;
+}
+.content{
+    width: auto;
+    height: auto;
+    
+}
+.content h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 8%;
+    
+}
+.content h1 span{
+    font-size: 50px;
+    color: orange;
+    
+}
+img{
+    width: 80%;
+    height: normal;
+    margin-left: 10%;
+    margin-right:10%;
+    border-radius: 20px;
+}
+.content h2{
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    border: 1px orange solid;
+    padding: 20px;
+    padding-left: 20px;
+}
+.content h3{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 50px;
+    
+}
+.content h3 span{
+    color: orange;
+    
+}
+.content button a{
+    font-size: 25px;
+    text-decoration: none;
+    color: orange;
+}
+
+.content .ip a{
+    text-decoration: none;
+    color: orange;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.content .ip li a{
+    color: yellow;
+    list-style: none;
+    text-align: center;
+    margin-top: 70px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}    
+.content a{
+    color: orange;
+    font-size: 20px;
+}
+button{
+    height: 70px;
+    width: 50%;
+    background: transparent;
+    color: orange;
+    position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 30px;
+    border: 1px orange solid;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/*..for plans*/
+.subscription-plans-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+}
+
+.subscription-plan {
+  min-width: 300px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.subscription-plan p{
+    color: white;
+    font-size: 22px;
+}
+
+.footer{
+    width: auto;
+    height: 200px;
+    border-top: 1px orange solid;
+    margin-top: 100%;
+    
+}
+.footer ul{
+    height: 200px;
+    border-right: 1px white solid;
+    width: 150px;
+    padding-top: 15px;
+    padding-right: 10px;
+    
+}
+.footer ul a{
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    line-height: 10px;
+    text-align: right;
+
+}
+.footer ul a li{
+    display: normal;
+    width: 150px;
+    height: 20px;
+    margin-top: 7px;
+}

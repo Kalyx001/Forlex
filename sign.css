@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: #003;
+    height: auto;
+    width: auto;
+}
+.header{
+    width: auto;
+    height: 150px;
+    border-bottom: 1px orange solid;
+    
+}
+.header h1{
+    color: orange;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.content{
+    text-align: center;
+    padding-top: 70px;
+}
+.content h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+}
+input{
+    background: transparent;
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 500px;
+    border: none;
+    line-height: 20px;
+    color: white;
+    border-bottom: 1px white solid;
+    margin-top: 20px;
+
+    
+    
+}
+::placeholder{
+    text-align: center;
+    color: orange;
+    letter-spacing: 1.5px;
+}
+.content button{
+    width: 70%;
+    height: 50px;
+    background: transparent;
+    border: 1px orange solid;
+    border-radius: 10px;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content a button{
+    color: orange;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+.content h2{
+    color: white;
+    font-size: 20px;
+    
+}
+.content h2 a{
+    text-decoration: none;
+    color: blue;
+    font-weight: lighter;
+}
+.footer{
+    width: auto;
+    height: 200px;
+    border-top: 1px orange solid;
+    margin-top: 100%;
+    
+}
+.footer ul{
+    height: 200px;
+    border-right: 1px white solid;
+    width: 150px;
+    padding-top: 15px;
+    padding-right: 10px;
+    
+}
+.footer ul a{
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    line-height: 10px;
+    text-align: right;
+
+}
+.footer ul a li{
+    display: normal;
+    width: 150px;
+    height: 20px;
+    margin-top: 7px;
+}

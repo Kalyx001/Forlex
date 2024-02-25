@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-color: #003;
+    height: auto;
+    width: auto;
+}
+.header{
+    width: auto;
+    height: 150px;
+    border-bottom: 1px orange solid;
+    padding-top: 20px;
+}
+.header h1{
+    color: orange;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.content .cnt h3{
+    border: 1px solid orange;
+    color: orange;
+    font: 25px arial lighter;
+    text-align: center;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5px;
+}
+table{
+    width: 70%;
+    height: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px orange solid;
+    color: white;
+    border-radius: 7px;
+    margin-top: 20px;
+    
+}
+table tr{
+    border-radius: 15px;
+}
+table tr h1{
+    color: orange;
+    text-align: center;
+    ;
+}
+table button{
+    width:80px;
+    height: 30px;
+    background: transparent;
+    border: 1px orange solid;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    align-content: center;
+    margin-left: 15%;
+    padding: 5px;
+}
+.footer{
+    width: auto;
+    height: 200px;
+    border-top: 1px orange solid;
+    margin-top: 100%;
+    
+}
+.footer ul{
+    height: 200px;
+    border-right: 1px white solid;
+    width: auto;
+    padding-top: 15px;
+    padding-right: 10px;
+    display: inline;
+    margin-left: 20px;
+}
+.footer ul a{
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    text-align: right;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.footer ul a li{
+    display: inline;
+    width: auto;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    border: .2px solid orange;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}

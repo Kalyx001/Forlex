@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: auto;
+    height: auto;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)10%, rgba(0, 0, 0, 0.8)10%), url(pics/q.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.header{
+    width: auto;
+    height: 150px;
+    border-bottom: 1px orange solid;
+}
+.header h1{
+    width: 60%;
+    text-align: center;
+    color: orange;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 40px;
+    
+}
+h2{
+    color: white;
+    font: italic 20px lighter;
+    padding-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: lighter;
+    
+}
+table{
+    border: 1px orange solid;
+    position: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+table th{
+    color: orange;
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+}
+table tr td{
+    border-top: 1px orange solid;
+    color: white;
+
+}
+.sbmt{
+    margin-left: 12%;
+    margin-right: 8%;
+    margin-top: 15px;
+}
+.sbmt input{
+    background: transparent;
+    width: 200px;
+    height: 50px;
+    border: 1px orange solid;
+    border-radius: 4px;
+    margin-right: 7px;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+}
+.sbmt button{
+    background: transparent;
+    width: 70px;
+    height: 50px;
+    border: 1px orange solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: orange;
+    font-size: 17px;
+}
+span{
+    color: orange;
+    font-size: 120%;
+    
+}
+.sbmt input::placeholder{
+    padding-left: 12px;
+    color: orange;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+.footer{
+    width: auto;
+    height: 200px;
+    border-top: 1px orange solid;
+    margin-top: 100%;
+    
+}
+.footer ul{
+    height: 200px;
+    border-right: 1px white solid;
+    width: 150px;
+    padding-top: 15px;
+    padding-right: 10px;
+    
+}
+.footer ul a{
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+    line-height: 10px;
+    text-align: right;
+
+}
+.footer ul a li{
+    display: normal;
+    width: 150px;
+    height: 20px;
+    margin-top: 7px;
+}
