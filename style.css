@@ -226,6 +226,7 @@ aside{
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    overflow: auto;
 
   
 
