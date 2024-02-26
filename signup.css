@@ -21,7 +21,7 @@
     padding-top: 20px;
     margin-left: 10px;
 }
-.content input{
+.content input, select{
     background: transparent;
     width: 70%;
     height: 40px;
@@ -34,6 +34,9 @@
     border-bottom: 1px white solid;
     margin-top: 20px;
     font-size: 20px;
+}
+.content  option{
+    background: #003
 }
 .content h2{
     color: white;
@@ -49,18 +52,22 @@
 ::placeholder{
     color: white;
     letter-spacing: 2px;
-    font-size: 10px;
+    font-size: 15px;
     border-color: white;
 }
 button{
+    color: green;
     width: 40%;
     height: 50px;
     margin-left: 30%;
     margin-right: 30%;
-    background: pink;
-    border-bottom-left-radius: 7px;
-    border-top-right-radius: 14px;
+    background: transparent;
+    border: 1px solid white;
+   border-radius: 10px;
     margin-top: 12px;
+}
+button:hover{
+    border: 1px solid red;
 }
 .footer{
     width: auto;
