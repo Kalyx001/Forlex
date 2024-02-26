@@ -11,10 +11,25 @@
 }
 .header{
     width: auto;
-    height: 150px;
-    border-bottom: 1px orange solid;
     display: inline;
+
     
+}
+.header .icon{
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #cca;
+    font: 40px Snap ITC lighter;
+    display: flex;
+    justify-content: space-between;
+}
+.header .icon h4{
+    margin-top: 50px;
+
+}
+.header .icon img{
+    
+    width: 200px;
 }
 .header h{
     height: 50px;
@@ -31,22 +46,28 @@
 }
 .menu {
   list-style: none;
-  margin-top: 10px;
-  margin-left: 20px;
-  padding: 0;
-  display: inline;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+ 
 }
 
 .menu li {
-  display: inline-block;
+    width: auto;
+    margin-top: 10px;
+  display: inline-flex;
   position: relative;
+  justify-content: space-evenly;
 }
 
 .menu li a {
+    font-size: 20px;
   display: block;
   padding: 10px;
   text-decoration: none;
-  color: white;
+  color: #ff2d74;
+  border-radius: 2px;
   transition: .3s;
 }
 .menu li a:hover{
@@ -92,6 +113,15 @@
     height: auto;
     
 }
+.content .pint{
+    font-size: 20px;
+  width: auto;
+  height: 300px; 
+  background: linear-gradient(to right, rgba(0, 1, 1, 1), rgba(0, 0, 0, 0.2)), url(Pics/eb93f90b67e0022291381d4f429e4905.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
 .content h1{
     text-align: center;
     color: white;
@@ -106,11 +136,12 @@
     
 }
 img{
-    width: 80%;
+    width: 100%;
     height: normal;
-    margin-left: 10%;
-    margin-right:10%;
-    border-radius: 20px;
+    max-height: 300px;
+    object-fit: cover;
+    top: 0;
+    border-radius: 10px;
 }
 .content h2{
     text-align: center;
@@ -182,30 +213,74 @@ button{
     margin-top: 30px;
     margin-bottom: 20px;
 }
-/*..for plans*/
-.subscription-plans-container {
-  width: 100%;
-  overflow-x: auto;
-  white-space: nowrap;
-  display: flex;
+button:hover{
+    background: #030312;
+    border: 0px;
 }
+aside ul li a{
+    text-decoration: none;
+}
+aside{
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 
-.subscription-plan {
-  min-width: 300px;
-  margin: 0 10px;
-  border: 1px solid #ccc;
-  padding: 20px;
+  
+
 }
-.subscription-plan p{
+aside .plan{
+    border: 1px dotted white;
+    border-radius: 7px;
+    height: auto;
+    width: 300px;
+    margin-right: 5px;
+    padding: 4px;
+    line-height: 40px;
+    transition: .3s;
+}
+aside .plan:hover{
+    background-color: #030312;
+    border: none;
+    box-shadow: 1px 1px 1px white;
+
+}
+h2, h3 {
     color: white;
-    font-size: 22px;
-}
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
+}
+.result {
+    display: inline-block;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.result img{
+    width: 300px;
+    height: 100%;
+    padding: 20px;
+    object-fit: fill;
+    
+    text-align: center;
+    transition: .3s;
+}
+.result img:hover{
+    width: 350px;
+    height: 180%;
+    box-shadow: 0px 1px 3px white;
+}
 .footer{
     width: auto;
     height: 200px;
     border-top: 1px orange solid;
-    margin-top: 100%;
+    margin-top: 10%;
     
 }
 .footer ul{
@@ -229,4 +304,8 @@ button{
     width: 150px;
     height: 20px;
     margin-top: 7px;
+}
+.buttons{
+    height: 70px;
+    object-fit: cover;
 }
